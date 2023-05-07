@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Goudy Old Style', sans-serif;
-    src: url(fonts/Goudy\ Old\ Style\ Regular.ttf)
+    src: url(fonts/Goudy\ Old\ Style\ Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
