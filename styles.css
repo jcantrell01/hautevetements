@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Goudy Old Style', sans-serif;
+    src: url(fonts/Goudy\ Old\ Style\ Regular.ttf)
+}
+
 * {
     box-sizing: border-box;
     margin : 0;
