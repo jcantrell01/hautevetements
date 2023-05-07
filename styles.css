@@ -1,20 +1,20 @@
-@font-face {
-    font-family: "Goudy Old Style"; 
-    src: url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.eot"); 
-    src: url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.svg#Goudy Old Style") format("svg"); 
+@import url('http://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+@font-face 
+{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v16/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-@import url(//db.onlinewebfonts.com/c/78d7bdc55148aaa3307a1e8ad735c40f?family=Goudy+Old+Style);
 
 * {
     box-sizing: border-box;
     margin : 0;
     padding: 0;
-    font-family: 'Goudy Old Style', sans-serif; 
+    font-family: 'Cormorant Garamond', sans-serif;
 }
 
 html, body {
@@ -34,6 +34,7 @@ html, body {
 }
 
 .card{
+    font-family: 'Cormorant Garamond', sans-serif;
     --hue: 214;
     --card-color: hsl(var(--hue), 80%, 40%);
     --shadow-color: hsla(var(--hue), 80%, 40%, 0.2);
@@ -75,6 +76,7 @@ html, body {
 }
 
 .card-body h3{
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 1.5em;
     color: #5D1714;
     margin-bottom: 10px;
@@ -82,11 +84,13 @@ html, body {
 }
 
 .card-body p{
+    font-family: 'Cormorant Garamond', sans-serif;
     color: black;
     margin-bottom: 30px;
 }
 
 .grid-container-element { 
+    font-family: 'Cormorant Garamond', sans-serif;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-gap: 20px; 
@@ -94,15 +98,18 @@ html, body {
     width: 50%; 
 } 
 .grid-child-element { 
+    font-family: 'Cormorant Garamond', sans-serif;
     margin: 10px; 
     border: 10px solid #5d161400; 
 }
 
 a{
+    font-family: 'Cormorant Garamond', sans-serif;
     text-decoration: none;
 }
 
 .article-card{
+    font-family: 'Cormorant Garamond', sans-serif;
     display: grid;
     grid-template-columns: 285px minmax(300px, 445px);
     max-width: 730px;
@@ -130,12 +137,14 @@ a{
 }
 
 .article-content{
+    font-family: 'Cormorant Garamond', sans-serif;
     background: var(--white);
     padding: 32px 40px;
     border-radius: 0 10px 10px 0;
 }
 
 .article-title{
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 20px;
     color: #5D1714;
     /* color: var(--very-dark-grayish-blue); */
@@ -147,6 +156,7 @@ a{
 }
 
 .article-text{
+    font-family: 'Cormorant Garamond', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,6 +168,7 @@ a{
 }
 
 .trends h1{
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: .8rem;
@@ -233,6 +244,7 @@ a{
     text-align: center;
 }
 .footer-content h3{
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 1.2rem;
     font-weight: 200;
     text-transform: capitalize;
@@ -241,6 +253,7 @@ a{
     color: #f8f8fa;
 }
 .footer-content p{
+    font-family: 'Cormorant Garamond', sans-serif;
     color: #f8f8fa;
     max-width: 500px;
     margin: 10px auto;
@@ -279,6 +292,7 @@ a{
 }
 
 .footer-bottom p{
+    font-family: 'Cormorant Garamond', sans-serif;
     color: #f8f8fa;
     font-size: 14px;
     word-spacing: 2px;
