@@ -1,9 +1,14 @@
 @font-face {
-    font-family: 'Goudy Old Style', sans-serif;
-    src: url(fonts/Goudy\ Old\ Style\ Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Goudy Old Style"; 
+    src: url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.eot"); 
+    src: url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/78d7bdc55148aaa3307a1e8ad735c40f.svg#Goudy Old Style") format("svg"); 
 }
+
+@import url(//db.onlinewebfonts.com/c/78d7bdc55148aaa3307a1e8ad735c40f?family=Goudy+Old+Style);
 
 * {
     box-sizing: border-box;
